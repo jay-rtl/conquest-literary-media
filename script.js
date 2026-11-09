@@ -20,7 +20,7 @@ form.querySelector('.copy').addEventListener('click',async()=>{if(!form.reportVa
 });})();
 
 // Verified profile URLs can be filled in here when available.
-(()=>{const socialLinks={facebook:'',instagram:'https://www.instagram.com/conquest.literary.media/',youtube:''};
+(()=>{const socialLinks={facebook:'https://www.facebook.com/profile.php?id=61587833903131',instagram:'https://www.instagram.com/conquest.literary.media/',youtube:''};
 for(const [network,url] of Object.entries(socialLinks)){if(!/^https:\/\//.test(url))continue;document.querySelectorAll('[data-social="'+network+'"]').forEach(link=>{link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');const label=network==='youtube'?'YouTube':network[0].toUpperCase()+network.slice(1);link.setAttribute('aria-label',label);link.title=label})}
 // Normalize previously shared index.html URLs without a network redirect.
 if(location.protocol!=='file:'&&location.pathname.endsWith('/index.html'))history.replaceState(null,'',location.pathname.slice(0,-10)+location.search+location.hash);
