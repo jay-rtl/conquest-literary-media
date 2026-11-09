@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jay-rtl.github.io/conquest-literary-media/sitemap.xml

@@ -1,0 +1,176 @@
+[
+  {
+    "route": "/",
+    "title": "Home",
+    "original_page": true,
+    "original_content_characters": 2301
+  },
+  {
+    "route": "/about/",
+    "title": "About",
+    "original_page": true,
+    "original_content_characters": 3844
+  },
+  {
+    "route": "/publishing-services/",
+    "title": "Publishing Services",
+    "original_page": true,
+    "original_content_characters": 3911
+  },
+  {
+    "route": "/reviews/",
+    "title": "Reviews & Client Experiences",
+    "original_page": true,
+    "original_content_characters": 1675
+  },
+  {
+    "route": "/contact/",
+    "title": "Contact",
+    "original_page": true,
+    "original_content_characters": 281
+  },
+  {
+    "route": "/privacy-policy/",
+    "title": "Privacy Policy",
+    "original_page": false,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/manuscript-evaluation/",
+    "title": "Manuscript Evaluation",
+    "original_page": true,
+    "original_content_characters": 2727
+  },
+  {
+    "route": "/book-formatting-design/",
+    "title": "Book Formatting & Design",
+    "original_page": true,
+    "original_content_characters": 3089
+  },
+  {
+    "route": "/isbn-copyright/",
+    "title": "ISBN & Copyright Support",
+    "original_page": true,
+    "original_content_characters": 3125
+  },
+  {
+    "route": "/pre-launch-marketing/",
+    "title": "Pre-Launch Marketing",
+    "original_page": true,
+    "original_content_characters": 3054
+  },
+  {
+    "route": "/sales-retail-support/",
+    "title": "Sales & Retail Support",
+    "original_page": true,
+    "original_content_characters": 3244
+  },
+  {
+    "route": "/online-social-media-promotion/",
+    "title": "Online & Social Media Promotion",
+    "original_page": true,
+    "original_content_characters": 3174
+  },
+  {
+    "route": "/public-relations/",
+    "title": "Public Relations",
+    "original_page": true,
+    "original_content_characters": 3131
+  },
+  {
+    "route": "/conquest-literary-media/",
+    "title": "Conquest Literary Media",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/category/uncategorized/",
+    "title": "Uncategorized",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/author/chector-kmrmedicalgmail-com/",
+    "title": "Author Archive",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/for-authors/",
+    "title": "For Authors",
+    "original_page": false,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/featured-authors/",
+    "title": "Featured Authors",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/success-stories/",
+    "title": "Success Stories",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/author-resources/",
+    "title": "Author Resources",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/submit-your-manuscript/",
+    "title": "Submit Your Manuscript",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/portfolio/",
+    "title": "Portfolio",
+    "original_page": false,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/published-books/",
+    "title": "Published Books",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/case-studies/",
+    "title": "Case Studies",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/media-features/",
+    "title": "Media Features",
+    "original_page": true,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/resources/",
+    "title": "Resources",
+    "original_page": false,
+    "original_content_characters": 0
+  },
+  {
+    "route": "/blog-insights/",
+    "title": "Blog / Insights",
+    "original_page": true,
+    "original_content_characters": 3037
+  },
+  {
+    "route": "/publishing-guides/",
+    "title": "Publishing Guides",
+    "original_page": true,
+    "original_content_characters": 3928
+  },
+  {
+    "route": "/faqs/",
+    "title": "FAQs",
+    "original_page": true,
+    "original_content_characters": 6954
+  }
+]
