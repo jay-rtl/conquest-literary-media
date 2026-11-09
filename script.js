@@ -18,3 +18,10 @@ function details(){const f=form.elements;return {subject:form.dataset.review==='
 form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const d=details();const url='mailto:admin@conquestliterarymedia.com?subject='+encodeURIComponent(d.subject)+'&body='+encodeURIComponent(d.body);if(url.length>1800){status.textContent='Your message may be too long for some email apps. Use Copy Email Details, then paste it into an email to admin@conquestliterarymedia.com.';fallback.hidden=false;fallback.value='To: admin@conquestliterarymedia.com\nSubject: '+d.subject+'\n\n'+d.body;return}status.textContent='Your email app has been requested. Review the prepared message and click Send there. If it does not open, use Copy Email Details.';window.location.href=url});
 form.querySelector('.copy').addEventListener('click',async()=>{if(!form.reportValidity())return;const d=details(),value='To: admin@conquestliterarymedia.com\nSubject: '+d.subject+'\n\n'+d.body;try{await navigator.clipboard.writeText(value);status.textContent='Email details copied. Paste them into your email app, review, and send manually.'}catch{fallback.hidden=false;fallback.value=value;fallback.focus();fallback.select();status.textContent='Select and copy the email details below, then paste them into your email app.'}})
 });})();
+
+// Verified profile URLs can be filled in here when available.
+(()=>{const socialLinks={facebook:'',instagram:'',youtube:''};
+for(const [network,url] of Object.entries(socialLinks)){if(!/^https:\/\//.test(url))continue;document.querySelectorAll('[data-social="'+network+'"]').forEach(link=>{link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.removeAttribute('aria-disabled');link.removeAttribute('tabindex');const label=network==='youtube'?'YouTube':network[0].toUpperCase()+network.slice(1);link.setAttribute('aria-label',label);link.title=label})}
+// Normalize previously shared index.html URLs without a network redirect.
+if(location.protocol!=='file:'&&location.pathname.endsWith('/index.html'))history.replaceState(null,'',location.pathname.slice(0,-10)+location.search+location.hash);
+})();
